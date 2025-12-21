@@ -1,0 +1,17 @@
+{
+  "name": "my-cap-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cds watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sap/cds": "^9.6.1",
+    "@sap/cds-dk": "^9.6.0"
+  }
+}
