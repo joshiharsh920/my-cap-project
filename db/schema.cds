@@ -30,3 +30,10 @@ entity OrderItems {
       quantity : Integer;
 }
 
+entity Books {
+  key ID       : Integer;
+      title    : String not null;
+      stock    : Integer default 0;
+      author   : Association to Authors not null;
+      category : Association to Categories;
+}
