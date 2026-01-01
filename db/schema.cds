@@ -1,10 +1,5 @@
 namespace my;
 
-entity Books {
-  key ID : Integer;
-  title  : String;
-  author : String;
-}  
 
 entity Authors {
   key ID   : Integer;

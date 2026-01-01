@@ -1,4 +1,4 @@
-ID,title,author
-1,Clean Code,Robert Martin
-2,The Pragmatic Programmer,Andrew Hunt
-3,Design Patterns,Erich Gamma
+ID,title,stock,author_ID,category_ID
+1,Harry Potter,50,1,1
+2,1984,30,2,2
+3,Animal Farm,40,2,2
