@@ -1,4 +1,4 @@
 ID,title,stock,author_ID,category_ID
 1,Harry Potter,50,1,1
-2,1984,30,2,2
+2,1984,-12,2,2
 3,Animal Farm,40,2,2
