@@ -12,8 +12,12 @@
   "license": "ISC",
   "dependencies": {
     "@cap-js/sqlite": "^2.1.2",
-    "@sap/cds": "^9.6.1",
+    "@sap/cds": "^9.6.2",
+    "@sap/cds-compiler": "^6.6.0",
     "@sap/cds-dk": "^9.6.0"
   },
-  "sapux": []
+  "sapux": [],
+  "devDependencies": {
+    "ui5-middleware-cap": "^3.3.3"
+  }
 }
