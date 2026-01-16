@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "cds watch",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch-booklist": "cds watch --open booklistui.booklist/index.html?sap-ui-xx-viewCache=false --livereload false"
   },
   "keywords": [],
   "author": "",
@@ -16,8 +17,14 @@
     "@sap/cds-compiler": "^6.6.0",
     "@sap/cds-dk": "^9.6.0"
   },
-  "sapux": [],
+  "sapux": [
+    "app/booklist"
+  ],
   "devDependencies": {
-    "ui5-middleware-cap": "^3.3.3"
-  }
+    "ui5-middleware-cap": "^3.3.3",
+    "cds-plugin-ui5": "^0.13.0"
+  },
+  "workspaces": [
+    "app/*"
+  ]
 }
