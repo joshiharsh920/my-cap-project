@@ -20,12 +20,12 @@ annotate service.Books with @(
             },
             {
                 $Type : 'UI.DataField',
-                Label : 'author_ID',
+                Label : 'author',
                 Value : author_ID,
             },
             {
                 $Type : 'UI.DataField',
-                Label : 'category_ID',
+                Label : 'category',
                 Value : category_ID,
             },
         ],
@@ -56,12 +56,12 @@ annotate service.Books with @(
         },
         {
             $Type : 'UI.DataField',
-            Label : 'author_ID',
+            Label : 'author',
             Value : author_ID,
         },
         {
             $Type : 'UI.DataField',
-            Label : 'category_ID',
+            Label : 'category',
             Value : category_ID,
         },
     ],

@@ -29,6 +29,8 @@ entity Books {
   key ID       : Integer;
       title    : String not null;
       stock    : Integer default 0;
-      author   : Association to Authors not null;
-      category : Association to Categories;
+      author_ID : Integer;                          // NEW
+      author   : Association to Authors on author.ID = author_ID;
+      category_ID : Integer;                        // NEW
+      category : Association to Categories on category.ID = category_ID;
 }
